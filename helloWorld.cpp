@@ -4,7 +4,10 @@ using namespace std;
 
 int main(void)
 {
-    cout << "Hello World!\n";
-    cout << "Tommy" << endl;
+    string name;
+    cout << "Enter your name : ";
+    getline(cin, name);
+    cout << "Hello " << name << endl;
+    
     return 0;
 }
